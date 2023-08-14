@@ -34,7 +34,29 @@ body {
       text-transform: capitalize !important;
     }
   }
+  @media screen and (max-width: 768px) {
+    .h-7 {
+      color: var(--white, #FFF);
+      font-family: FF1 !important;
+      font-size: 28px !important;
+      font-style: normal !important;
+      font-weight: 600 !important;
+      line-height: 140% !important;
+      text-transform: capitalize !important;
+    }
+  }
 
+  @media screen and (max-width: 768px) {
+    .p16 {
+      color: var(--white, #FFF);
+      font-family: FF1 !important;
+      font-size: 16px !important;
+      font-style: normal !important;
+      font-weight: 400 !important;
+      line-height: 140% !important;
+      text-transform: capitalize !important;
+    }
+  }
   .nav-link {
     color: #FFF !important;; 
     text-align: center; 
@@ -85,6 +107,19 @@ body {
     color: #FFF;
     background: var(--background, #2B2B2B);
     border: 2px solid var(--call-to-action, #A259FF);
+    }
+    .bt4 {
+    border-radius: 20px;
+    background: var(--text, #FFF);
+    color: var(--background, #2B2B2B);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    width: 198px;
+    height: 55px;
     }
     .h-1 {
     color: var(--white, #FFF);
@@ -138,6 +173,15 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
+    text-transform: capitalize;
+    }
+    .h-7 {
+    color: var(--white, #FFF);
+    font-family: FF1;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
     text-transform: capitalize;
     }
     .p1 {
@@ -277,6 +321,207 @@ body {
     font-weight: 600;
     line-height: 140%;
     }
+    .p16 {
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-transform: capitalize;
+    margin: 0;
+    }
+    .p17 {
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: capitalize;
+    margin: 0;
+    }
+    .p18 {
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin: 0;
+    }
+    .p19 {
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    margin: 0; 
+    }
+    .p20 {
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    padding-top: 5px;
+    }
+    .p21 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    }
+    .p22 {
+    color: var(--text, #FFF);
+    font-family: FF2;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+    }
+    .p23 {
+    color: var(--text, #FFF);
+    font-family: FF3;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+    }
+    .p24 {
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    text-transform: capitalize;
+    }
+    .p25 {
+    color: var(--text, #FFF);
+    font-family: FF4;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+    }
+    .p26 {
+    color: #FFF;
+    font-family: FF4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    }
+    .p27 {
+    color: #FFF;
+    font-family: FF1;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    text-transform: capitalize;
+    }
+    .p28 {
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+    }
+    .p29 {
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    text-transform: capitalize;
+    }
+    .p30 {
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+    }
+    .p31 {
+    color: #FFF;
+    text-align: center;
+    font-family: FF1;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: capitalize;
+    }
+    .p32 {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: FF2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    }
+    .p33 {
+    color: var(--white, #FFF);
+    font-family: FF1;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: capitalize;
+    }
+    .p34 {
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    }
+    .p35 {
+    color: #FFF;
+    font-family: FF1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    }
+    .p36 {
+    color: var(--white, #FFF);
+    font-family: FF2;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    }
+    .p37 {
+    color: var(--white, #FFF);
+    font-family: FF1;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+    }
+    .p38 {
+    color: var(--white, #FFF);
+    font-family: FF2;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-transform: capitalize;
+    }
     .sp1 {
     color: var(--text, #FFF);
     font-family: Space Mono;
@@ -300,4 +545,63 @@ body {
       background: #3B3B3B;
       width: 315px;
       height: 100px;
+    }
+    .box18 {
+      background-color: #3B3B3B;;
+      border-radius: 20px 20px 20px 20px;
+    }
+    .box24 {
+      background-image: url(img/NFTInfo.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 850px;
+    }
+    .box25 {
+      width: 151px;
+      height: 44px;
+      border-radius: 20px;
+      background: #3B3B3B;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .box26 {
+      background-color: rgba(59, 59, 59, 0.5);
+      border-radius: 20px;
+      height: 150px;
+    }
+    .box28 {
+      background-image: url(img/NFTbgmobile.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 595px;
+    }
+    .box29 {
+      width: 151px;
+      height: 44px;
+      border-radius: 20px;
+      background-color: #3B3B3B;
+    }
+    .box31 {
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);
+    width: 315px;
+    height: 147px;
+    }
+    .box36 {
+    height: 439px;
+    border-radius: 20px;
+    background: var(--background-secondary, #3B3B3B);
+    }
+    .box37 {
+      height: 157px;
+    border-radius: 20px;
+    background: var(--background-secondary, #3B3B3B);
+    }
+    .box38 {
+      height: 430px;
+      border-radius: 20px;
+      background-color: #3B3B3B;
     }
