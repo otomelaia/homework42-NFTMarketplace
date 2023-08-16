@@ -553,6 +553,31 @@ body {
     font-weight: 400;
     line-height: 140%; 
     }
+    .p41 {
+    color: #FFF;
+    font-family: FF3;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; 
+    text-transform: capitalize;
+    }
+    .p42 {
+    color: #CCC;
+    font-family: FF4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    }
+    .p43 {
+    color: #CCC;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+    }
     .sp1 {
     color: var(--text, #FFF);
     font-family: Space Mono;
