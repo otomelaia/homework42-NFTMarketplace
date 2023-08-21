@@ -110,6 +110,7 @@ body {
     }
     .bt4 {
     border-radius: 20px;
+    border: none;
     background: var(--text, #FFF);
     color: var(--background, #2B2B2B);
     text-align: center;
@@ -610,7 +611,7 @@ body {
       background-image: url(img/NFTInfo.png);
       background-repeat: no-repeat;
       background-size: cover;
-      height: 850px;
+      height: 750px;
     }
     .box25 {
       width: 151px;
